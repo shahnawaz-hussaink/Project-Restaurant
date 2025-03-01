@@ -1,0 +1,10 @@
+#logo{
+    height: 80px;
+    border: 2px solid aliceblue;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+#Restaurant-name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
