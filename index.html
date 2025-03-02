@@ -8,16 +8,24 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--This is main Header-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a href="https://shahnawaz-hussaink.github.io/Project-Restaurant/"> 
-                <img src="Logo.png" alt="logo" id="logo"> 
-            </a>
-            <a href="https://shahnawaz-hussaink.github.io/Project-Restaurant/" class="navbar-brand" id="Restaurant-name"> Shah's Restaurant</a>
+            <div class="logo-div">
+                <a href="https://shahnawaz-hussaink.github.io/Project-Restaurant/"> 
+                    <img src="Logo.png" alt="logo" id="logo"> 
+                </a>
+            </div>
+            <div class="name-res">
+                <a href="https://shahnawaz-hussaink.github.io/Project-Restaurant/" class="navbar-brand" id="Restaurant-name"> Shah's Restaurant</a>
 
+            </div>
+            
             <div class="search-div">
                 <input class="search-box" type="search" placeholder=" Looking for something specific?">
             </div>
@@ -30,7 +38,7 @@
         </div>
     </nav>
     <!--This is Sub Header-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sub-header">
+    <nav class="navbar-expand-lg sub-header">
         <div class="container-fluid food-list-drowpdown">
             <div class="collapse navbar-collapse options" id="navbarNavDropdown">
                 <ul class="navbar-nav">
@@ -208,6 +216,45 @@
             </p>
         </div> 
     </div> 
+    <footer class="footer-content">
+        <div class="one">
+            <div id="one-one">
+                <h1>
+                    About Shah's Restaurant
+                </h1>
+                <p>
+                    This restaurant website is a reflection of my journey in web development, crafted with passion and dedication. Built as a practice project, it showcases my growing skills in frontend design and functionality. As I continue to learn and evolve, I plan to enhance this platform with more interactive features and refined aesthetics. 
+                </p>
+            </div>
+            <div id="two-two">
+                <h3>
+                    Available Cities
+                </h3>
+                <ul class="cities-list">
+                    <li class="cities-items">Delhi</li>
+                    <li class="cities-items">Chandigarh</li>
+                    <li class="cities-items">Mumbai</li>
+                    <li class="cities-items">Benguluru</li>
+                    <li class="cities-items">Chennai</li>
+                </ul>
+            </div>
+            <div id="three-three">
+                <h3>
+                    Tech Used
+                </h3>
+                <ul class="Tech-items">
+                    <li class="Tech-names">HTML</li>
+                    <li class="Tech-names">CSS</li>
+                </ul>
+            </div>
+        </div>
+        <div id="line-breaker">
+
+        </div>
+        <div class="two">
+            <h1>For better experience, download the Shah app now</h1>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
