@@ -1,1 +1,1 @@
-# This is simple project made my "Shahnawaz Hussain".
+# This is simple project made by Shahnawaz Hussain.
