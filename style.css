@@ -1,29 +1,58 @@
-#logo{
+.container-fluid img{
     height: 80px;
     border: 2px solid aliceblue;
     border-radius: 50%;
-    margin: 0 10px 0 0;
+    margin: 0;
 }
-.container-fluid{
+.container-fluid {
     background-color: #caf0f840;
     height: 113px;
     position: sticky;
+    display: flex;
+    align-items: center; 
+    gap: 5px; 
+    padding-left: 10px; 
 }
-#Restaurant-name{
+
+#Restaurant-name {
+    font-size: 2.7rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     cursor: pointer;
+    margin: 0;
 }
 
+.food-list-drowpdown {
+    background-color: #caf8d760;
+    height: 80px;
+    position: sticky;
+    display: flex;
+    align-items: center; 
+    padding-left: 10px; 
+    justify-content:space-between ;
+}
+
+.dropdown{
+    margin: 2rem;
+    font-size: 1.1rem;
+}
+.nav-itme{
+    margin: 2rem;
+    font-size: 1.1rem;
+    
+}
+.nav-itme a{
+    color: #219ebc;
+}
 .options{
     cursor:pointer ;
 }
 .search-div input{
-    width: 16rem;
+    width: 20rem;
     height: 3rem;
     margin: auto;
-    margin-left: 70px;
-    margin-right: 80px;
+    margin-left: 250px;
+    margin-right: 100px;
     border: 2px solid #219ebc;
     border-radius: 999px;
     box-shadow: 0 0 2px #00000012;
@@ -52,7 +81,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .food-img{
     height: 200px;
